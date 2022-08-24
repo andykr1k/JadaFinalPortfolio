@@ -225,6 +225,7 @@ const MediaArticleCard: FC<MediaArticleCardProps> = ({
             fontSize: ['16px', '16px', '18px'],
           })}
           src={providerImage}
+          alt={providerTitle}
           />
         <GapVertical times={6} />
         <button
