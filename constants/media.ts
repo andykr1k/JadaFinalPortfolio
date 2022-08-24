@@ -1,6 +1,6 @@
 export const articles = [
   {
-    providerTitle: 'America Coffee',
+    providerTitle: 'Americas Best Coffee',
     providerImage:
       '/ads/AmericasBest.jpg',
     articleDesc:
@@ -9,7 +9,7 @@ export const articles = [
       'https://www.americasbestcoffee.com/',
   },
   {
-    providerTitle: 'Tattoo',
+    providerTitle: 'Black & Blue Tattoo',
     providerImage:
       '/ads/Tattoo.jpg',
     articleDesc:
