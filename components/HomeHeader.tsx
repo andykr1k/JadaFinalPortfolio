@@ -82,7 +82,7 @@ export const HomeHeader: FC<HomeHeaderProps> = () => {
             color: 'black',
           })}
         >
-          Filmmaker, Photographer and Student
+          Filmmaker
         </p>
         <GapVertical times={8} />
         <p
@@ -98,8 +98,7 @@ export const HomeHeader: FC<HomeHeaderProps> = () => {
             lineHeight: '180%',
           })}
         >
-          Jada is a young feature film writer, producer and
-          director. She studies in Los Angeles at Film School.
+          Jada is an all around, creative studying television, film, and media studies in Los Angeles, California. 
         </p>
         <div
           css={mq({
