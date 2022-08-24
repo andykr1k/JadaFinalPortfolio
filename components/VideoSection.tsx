@@ -228,7 +228,7 @@ export const VideoSection: FC<VideoSectionProps> = () => {
           },
         })}
         onClick={() =>
-          window.scrollTo({ top: 4 * window.innerHeight, behavior: 'smooth' })
+          window.scrollTo({ top: 3 * window.innerHeight, behavior: 'smooth' })
         }
       >
         <p css={{ margin: 0, fontWeight: 300 }}>Ad Spotlight</p>
@@ -277,7 +277,7 @@ export const VideosForWorkControl: FC<VideosForWorkControlProps> = ({
       })}
       onClick={() =>
         document.getElementById('work-videos').scrollTo({
-          left: isNext ? window.innerWidth : -window.innerWidth,
+          left: isNext ? 0.85 * window.innerWidth : -window.innerWidth,
           behavior: 'smooth',
         })
       }

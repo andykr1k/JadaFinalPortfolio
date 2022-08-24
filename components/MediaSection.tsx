@@ -131,6 +131,32 @@ export const MediaSection: FC = () => {
             })}
           />
         </div>
+        <GapVertical times={4} />
+          <p
+          css={{
+            margin: 0,
+            fontWeight: 100,
+            fontSize: 12,
+          }}
+        >
+            Made
+
+            with 
+            
+            ♥️
+
+            by
+            {" "}
+            <a
+                href="https://rebrand.ly/andykr1k"
+                aria-label="My GitHub"
+            > 
+                <span className="badge bg-dark">
+                    Andrew Krikorian
+                </span>
+            </a>{" "}
+            using Next.js
+        </p>
       </div>
     </section>
   );
