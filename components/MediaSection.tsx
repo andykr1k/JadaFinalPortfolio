@@ -201,20 +201,6 @@ const MediaArticleCard: FC<MediaArticleCardProps> = ({
           src={providerImage}
           />
         <GapVertical times={6} />
-        <p
-          css={mq({
-            margin: 0,
-            fontWeight: 200,
-            textAlign: 'center',
-            width: '80%',
-            fontFamily: 'Rubik',
-            fontSize: ['14px', '14px', '16px'],
-            lineHeight: '150%',
-          })}
-        >
-          {articleDesc}
-        </p>
-        <GapVertical times={6} />
         <button
           css={{
             // border: '1px solid black',
@@ -232,7 +218,7 @@ const MediaArticleCard: FC<MediaArticleCardProps> = ({
           }}
           onClick={() => window.open(articleLink)}
         >
-          Website
+          Watch Ad
         </button>
       </div>
     </div>

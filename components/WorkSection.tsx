@@ -116,7 +116,7 @@ export const WorkSection: FC<WorkSectionProps> = ({ onOpen }) => {
           window.scrollTo({ top: 2 * window.innerHeight, behavior: 'smooth' })
         }
       >
-        <p css={{ margin: 0, fontWeight: 300 }}>Film's</p>
+        <p css={{ margin: 0, fontWeight: 300 }}>Film&apos;s</p>
         <GapVertical times={2} />
         <AiOutlineDownCircle
           css={{

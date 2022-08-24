@@ -1,12 +1,12 @@
 export const articles = [
   {
-    providerTitle: 'Americas Best Coffee',
+    providerTitle: 'Americas Best Coffee Roasting Company',
     providerImage:
       '/ads/AmericasBest.jpg',
     articleDesc:
       'Best Coffee',
     articleLink:
-      'https://www.americasbestcoffee.com/',
+      'https://www.youtube.com/watch?v=-ngqJeZW3Lg',
   },
   {
     providerTitle: 'Black & Blue Tattoo',
@@ -15,7 +15,7 @@ export const articles = [
     articleDesc:
       'Tattoo',
     articleLink:
-      'https://www.cloudburstcoffee.com/',
+      'https://www.youtube.com/watch?v=hbn2ywN-3qQ',
   },
   {
     providerTitle: 'Persian Tea',
@@ -24,7 +24,7 @@ export const articles = [
     articleDesc:
       'Persian Tea',
     articleLink:
-      'https://www.persiantea.com/',
+      'https://www.youtube.com/watch?v=J3PJZwQfU-0',
   },
   {
     providerTitle: 'Cloudburst Coffee',
@@ -33,6 +33,6 @@ export const articles = [
     articleDesc:
       'Cloudburst Coffee',
     articleLink:
-      'https://www.cloudburstcoffee.com/',
+      'https://www.youtube.com/watch?v=e5rCR0G2jAg',
   },
 ];

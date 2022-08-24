@@ -103,7 +103,7 @@ export const VideoSection: FC<VideoSectionProps> = () => {
           <div css={mq({ display: ['flex', 'none', 'none'] })}>
             <GapVertical times={12} />
           </div>
-          <VideoForWork
+          <VideoForWorkYT
             src={
               <iframe
                 src="https://www.youtube.com/embed/LSjTJlUZkLY"
@@ -129,7 +129,7 @@ export const VideoSection: FC<VideoSectionProps> = () => {
           <div css={mq({ display: ['flex', 'none', 'none'] })}>
             <GapVertical times={12} />
           </div>
-          <VideoForWork
+          <VideoForWorkYT
             src={
               <iframe
                 src="https://www.youtube.com/embed/r0t9PRHX5FA"
@@ -155,10 +155,10 @@ export const VideoSection: FC<VideoSectionProps> = () => {
           <div css={mq({ display: ['flex', 'none', 'none'] })}>
             <GapVertical times={12} />
           </div>
-          <VideoForWork
+          <VideoForWorkYT
             src={
-              <iframe
-                src="https://www.youtube.com/embed/LSjTJlUZkLY"
+            <iframe
+                src="https://www.youtube.com/embed/l10-ocIJxzw"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -181,12 +181,12 @@ export const VideoSection: FC<VideoSectionProps> = () => {
           <div css={mq({ display: ['flex', 'none', 'none'] })}>
             <GapVertical times={12} />
           </div>
-          <VideoForWork
+          <VideoForWorkYT
             src={
               <iframe
-                src="https://www.youtube.com/embed/LSjTJlUZkLY"
+                src="https://www.youtube.com/embed/ET6b-BZxuJ4"
                 title="YouTube video player"
-                frameBorder="0"
+                frameBorder="1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 style={{
@@ -418,7 +418,7 @@ export const VideoForWorkYT: FC<VideoForWorkYTProps> = ({
         {title}
       </h2>
       <GapVertical times={3} />
-      <p css={{ margin: 0, fontWeight: 200, fontSize: '20px' }}>{subtitle}</p>
+      <p css={{ margin: 1, fontWeight: 200, fontSize: '20px' }}>{subtitle}</p>
     </div>
   );
 };
