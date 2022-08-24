@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 /** @jsxImportSource @emotion/react */
+import Head from 'next/head'
 
 import { GapVertical } from '../components/GapVertical';
 import { HomeHeader } from '../components/HomeHeader';
@@ -34,6 +35,10 @@ export default function Home() {
         overflow: 'hidden',
       }}
     >
+      <Head>
+        <title>Jada Ganim</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <HomeHeader />
       <WorkSection onOpen={onOpen} />
       <VideoSection />

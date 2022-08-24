@@ -1,6 +1,6 @@
 export const articles = [
   {
-    providerTitle: 'Americas Best Coffee Roasting Company',
+    providerTitle: 'Americas Best Coffee Co.',
     providerImage:
       '/ads/AmericasBest.jpg',
     articleDesc:

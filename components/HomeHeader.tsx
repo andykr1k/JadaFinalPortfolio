@@ -98,15 +98,8 @@ export const HomeHeader: FC<HomeHeaderProps> = () => {
             lineHeight: '180%',
           })}
         >
-          Jada is a young award-winning feature film writer, producer and
-          director. She studies at Sydney Film School.
-          <br />
-          <br />
-          Jada’s 
-          <br />
-          <br />
-          She is a member of the American Directors&apos; Guild and the
-          American Writers&apos; Guild.
+          Jada is a young feature film writer, producer and
+          director. She studies in Los Angeles at Film School.
         </p>
         <div
           css={mq({
