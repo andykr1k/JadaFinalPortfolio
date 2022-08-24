@@ -98,7 +98,7 @@ export const HomeHeader: FC<HomeHeaderProps> = () => {
             lineHeight: '180%',
           })}
         >
-          Jada is an all around, creative studying television, film, and media studies in Los Angeles, California. 
+          Jada is an all around creative studying television, film, and media studies in Los Angeles, California. 
         </p>
         <div
           css={mq({
