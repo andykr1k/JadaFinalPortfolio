@@ -179,7 +179,7 @@ const MediaArticleCard: FC<MediaArticleCardProps> = ({
     <div
       css={mq({
         background: '#FAFFD8',
-        // boxShadow: '0px 0px 24px rgba(0, 0, 0, 0.05)',
+         //boxShadow: '0px 0px 24px rgba(0, 0, 0, 0.25)',
         display: 'flex',
         flexDirection: 'column',
         // width: ['80%', computeGridSize(90), computeGridSize(110)],
@@ -191,8 +191,8 @@ const MediaArticleCard: FC<MediaArticleCardProps> = ({
         ],
         alignItems: 'center',
         justifyContent: 'center',
-        border: '1px solid black',
-        borderRadius: '4px',
+        border: '2px solid black',
+        borderRadius: '8px',
       })}
     >
       <div
