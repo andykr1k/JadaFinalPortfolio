@@ -178,7 +178,7 @@ const MediaArticleCard: FC<MediaArticleCardProps> = ({
   return (
     <div
       css={mq({
-        background: 'white',
+        background: '#FAFFD8',
         // boxShadow: '0px 0px 24px rgba(0, 0, 0, 0.05)',
         display: 'flex',
         flexDirection: 'column',
