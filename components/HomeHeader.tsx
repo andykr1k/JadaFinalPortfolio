@@ -32,7 +32,10 @@ export const HomeHeader: FC<HomeHeaderProps> = () => {
           paddingTop: ['48px', '0px', '0px'],
         })}
       >
-        <img
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.7}}
           src="/profile/jadaPic.jpg"
           alt="Jada Ganim - Filmmaker"
           css={{

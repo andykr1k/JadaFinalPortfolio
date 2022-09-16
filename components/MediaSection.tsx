@@ -7,6 +7,7 @@ import { GapVertical } from './GapVertical';
 import { SocialIcon } from 'react-social-icons';
 import { GapHorizontal } from './GapHorizontal';
 import { articles } from '../constants/media';
+import { motion } from 'framer-motion';
 
 export const MediaSection: FC = () => {
   return (
@@ -59,7 +60,9 @@ export const MediaSection: FC = () => {
         })}
       >
         {articles.map((article, index) => (
-          <MediaArticleCard {...article} key={index} />
+          <motion.div initial={{ opacity: 0, translateX: -100 }} whileInView={{ opacity: 1, translateX: 0 }}   transition={{ duration: 0.7}}>
+            <MediaArticleCard {...article} key={index} />
+          </motion.div>
         ))}
       </div>
       <div css={mq({ display: ['none', 'none', 'flex'] })}>
@@ -83,16 +86,22 @@ export const MediaSection: FC = () => {
       >
         <div css={{ height: '2px', width: '48px', background: 'black' }} />
         <GapVertical times={8} />
-        <p
+        <motion.p
+        initial={{opacity: 0, scale: 0.1}}
+        whileInView={{opacity: 1, scale: 1}}
+        transition={{duration: 0.7}}
           css={{
             margin: 0,
             fontWeight: 300,
           }}
         >
           Contact Jada at <strong>jadaganim@gmail.com</strong>
-        </p>
+        </motion.p>
         <GapVertical times={6} />
-        <div
+        <motion.div
+        initial={{opacity: 0, scale: 0.1}}
+        whileInView={{opacity: 1, scale: 1}}
+        transition={{duration: 0.7}}
           css={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
         >
           <SocialIcon
@@ -130,9 +139,12 @@ export const MediaSection: FC = () => {
               transition: '0.3s',
             })}
           />
-        </div>
+        </motion.div>
         <GapVertical times={4} />
-          <p
+          <motion.p
+          initial={{opacity: 0, scale: 0.1}}
+          whileInView={{opacity: 1, scale: 1}}
+          transition={{duration: 0.7}}
           css={{
             margin: 0,
             fontWeight: 100,
@@ -156,7 +168,7 @@ export const MediaSection: FC = () => {
                 </span>
             </a>{" "}
             using Next.js
-        </p>
+        </motion.p>
       </div>
     </section>
   );

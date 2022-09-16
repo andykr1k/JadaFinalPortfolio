@@ -6,7 +6,7 @@ import { computeGridSize } from '../styles/grid';
 import { mq } from '../styles/mq';
 import { GapHorizontal } from './GapHorizontal';
 import { GapVertical } from './GapVertical';
-
+import { motion } from 'framer-motion';
 interface WorkSectionProps {
   onOpen: VoidFunction;
 }
@@ -87,7 +87,9 @@ export const WorkSection: FC<WorkSectionProps> = ({ onOpen }) => {
             gap: '48px',
           })}
         >
-          <Poster posterProps={prosPoster} />
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}   transition={{ duration: 0.7}}>
+            <Poster posterProps={prosPoster} />
+          </motion.div>
         </div>
       </div>
       <div css={mq({ display: ['none', 'none', 'flex'] })}>

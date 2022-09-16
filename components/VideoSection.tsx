@@ -11,6 +11,7 @@ import { computeGridSize } from '../styles/grid';
 import { mq } from '../styles/mq';
 import { GapHorizontal } from './GapHorizontal';
 import { GapVertical } from './GapVertical';
+import { motion } from 'framer-motion';
 
 interface VideoSectionProps {}
 
