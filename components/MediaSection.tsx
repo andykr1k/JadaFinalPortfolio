@@ -60,7 +60,7 @@ export const MediaSection: FC = () => {
         })}
       >
         {articles.map((article, index) => (
-          <motion.div initial={{ opacity: 0, translateX: -100 }} whileInView={{ opacity: 1, translateX: 0 }}   transition={{ duration: 0.7}}>
+          <motion.div initial={{ opacity: 0, translateX: -100 }} whileInView={{ opacity: 1, translateX: 0 }}   transition={{ duration: 0.7}} key={index}>
             <MediaArticleCard {...article} key={index} />
           </motion.div>
         ))}
