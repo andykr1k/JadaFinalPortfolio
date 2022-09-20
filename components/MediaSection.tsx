@@ -203,7 +203,6 @@ const MediaArticleCard: FC<MediaArticleCardProps> = ({
         ],
         alignItems: 'center',
         justifyContent: 'center',
-        border: '0.5px solid black',
         borderRadius: '8px',
       })}
     >

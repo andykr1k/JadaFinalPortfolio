@@ -35,7 +35,7 @@ export const HomeHeader: FC<HomeHeaderProps> = () => {
         <motion.img
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.7}}
+          transition={{ duration: 1.5}}
           src="/profile/jadaPic.jpg"
           alt="Jada Ganim - Filmmaker"
           css={{
